@@ -1,0 +1,32 @@
+// =================================
+// 960 > - Top Banner
+// =================================
+.promo {
+  height: 170px;
+
+  .container {
+    width: 960px;
+    margin: 0 auto;
+
+    header {
+      width: 60%;
+      margin: 55px 0 0 28px;
+
+      h1 {
+        font-size: 30px;
+        margin: 0 0 10px 0;
+      }
+
+      h2 {
+        font-size: 20px;
+      }
+    }
+
+    .col {
+
+      .take-tour {
+        margin-left: 25px;
+      }
+    }
+  }
+}

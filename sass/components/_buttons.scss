@@ -1,0 +1,78 @@
+.btn {
+  display: block;
+  text-align: center;
+}
+
+i{
+  display: block;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.store {
+
+  background: #5AA6D0;
+
+  &:hover {
+    background: #4885A6;
+  }
+
+}
+
+.store.active {
+
+  background: #FF646F;
+
+  &:hover {
+    background: #CC5059;
+  }
+  
+}
+
+.like {
+
+  background: #ACC5D1;
+
+  &:hover{
+      background: #8A9EA7;
+  }
+  &.active{
+    background: #F498B4;
+    color: #FFDFE9;
+  }
+
+}
+
+.rounded-s {
+  border-radius: 3px;
+}
+
+.rounded-l {
+  border-radius: 6px;
+}
+
+.pink {
+  background: #ff646f;
+
+  &.btn:hover {
+    background: #cc5059
+  }
+}
+
+.blue {
+  background: #5aa6d0;
+
+  &.btn:hover {
+    background: #4885a6;
+  }
+}
+
+.grey {
+  background: #e8ecee;
+
+  &.btn:hover {
+    background: none;
+  }
+}

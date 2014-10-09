@@ -1,0 +1,15 @@
+// =================================
+// Sass file, which includes the
+// default and styles for 768 screen
+// =================================
+
+// ---------------------------------
+// Bourbon
+@import "bourbon/bourbon";
+
+// ---------------------------------
+// Homepage
+@import "layout/homepage/768/banner";
+
+// --layouts
+@import "layout/homepage/768/grid";

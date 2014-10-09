@@ -1,0 +1,45 @@
+// =================================
+// 768 > 960 - Top Banner
+// =================================
+.promo {
+  height: 170px;
+
+  .container {
+
+    header {
+      float: left;
+      width: 52%;
+      margin: 50px 0 10px 0;
+      text-align: left;
+      margin: 55px 0 0 20px;
+
+      h1 {
+        font-size: 24px;
+        margin: 0 0 5px 0;
+      }
+
+      h2 {
+        font-size: 20px;
+      }
+    }
+
+    .col {
+      float: right;
+      margin: 20px 90px 0 0;
+
+      .create-acc {
+        margin-bottom: 15px;
+      }
+
+      .take-tour {
+        margin-left: 30px;
+      }
+    }
+
+    .tablet-img {
+      width: 147px;
+      height: 136px;
+      background: url('../img/icons/tablet_corner_img_large.png') no-repeat;
+    }
+  }
+}

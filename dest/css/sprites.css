@@ -1,0 +1,61 @@
+/*
+Icon classes can be used entirely standalone. They are named after their original file names.
+
+```html
+<i class="icon-home"></i>
+```
+*/
+.icon-dark_grey_heart {
+  background-image: url(../img/icons/spritesheet.png);
+  background-position: 0px -27px;
+  width: 20px;
+  height: 17px;
+}
+.icon-grey_heart {
+  background-image: url(../img/icons/spritesheet.png);
+  background-position: 0px -44px;
+  width: 20px;
+  height: 17px;
+}
+.icon-pencil {
+  background-image: url(../img/icons/spritesheet.png);
+  background-position: 0px -78px;
+  width: 18px;
+  height: 18px;
+}
+.icon-pink_heart {
+  background-image: url(../img/icons/spritesheet.png);
+  background-position: 0px -61px;
+  width: 20px;
+  height: 17px;
+}
+.icon-tablet_corner_img {
+  background-image: url(../img/icons/spritesheet.png);
+  background-position: 0px -272px;
+  width: 81px;
+  height: 137px;
+}
+.icon-tablet_corner_img_large {
+  background-image: url(../img/icons/spritesheet.png);
+  background-position: 0px -136px;
+  width: 147px;
+  height: 136px;
+}
+.icon-take_tour {
+  background-image: url(../img/icons/spritesheet.png);
+  background-position: 0px -96px;
+  width: 175px;
+  height: 40px;
+}
+.icon-white_cross {
+  background-image: url(../img/icons/spritesheet.png);
+  background-position: 0px -13px;
+  width: 14px;
+  height: 14px;
+}
+.icon-white_tick {
+  background-image: url(../img/icons/spritesheet.png);
+  background-position: 0px 0px;
+  width: 18px;
+  height: 13px;
+}

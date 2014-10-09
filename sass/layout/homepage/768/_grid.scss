@@ -1,0 +1,56 @@
+  // =================================
+// 768 > 959
+// =================================
+section.showcase {
+
+  .container {
+    min-width: 751px;
+    margin: 0 auto;
+  }
+}
+
+%grid-module {
+  float: left;
+  min-width: 250px;
+  width: 33.3333333%;
+  margin: 0;
+  border: none;
+
+  .holder {
+    @include box-sizing(border-box);
+    position: relative;
+    min-width: 213px;
+    border: 1px solid #d0d0d0;
+    margin: 18.6666666667px;
+    overflow: hidden;
+  }
+
+  .product-gallery {
+    min-width: 207px;
+  }
+
+  img {
+    width: 100%;
+  }
+}
+
+.item {
+  @extend %grid-module;
+
+  &.big{
+    width: 50%;
+  }
+
+}
+
+.collection {
+  @extend %grid-module;
+
+  &.big{
+    width: 50%;
+  }
+
+  .product-meta {
+    margin-bottom: 10px;
+  }
+}

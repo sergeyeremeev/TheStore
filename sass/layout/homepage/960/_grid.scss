@@ -1,0 +1,51 @@
+// =================================
+// 960 >
+// =================================
+section.showcase {
+
+  .container {
+    width: 932px;
+    margin: 0 auto;
+  }
+}
+
+%grid-module {
+  min-width: 233px;
+  width: 233px;
+
+  .holder {
+    width: 213px;
+    margin: 10px;
+  }
+
+  .product-gallery {
+    width: 207px;
+  }
+
+  &:nth-child(4n) {
+    margin-right: 0;
+  }
+
+  &.big{
+
+    .holder {
+      width: 446px;
+      margin: 10px;
+    }
+
+    .product-gallery {
+      width: 440px;
+    }
+
+
+  }
+
+}
+
+.item {
+  @extend %grid-module;
+}
+
+.collection {
+  @extend %grid-module;
+}

@@ -1,0 +1,72 @@
+.promo {
+  height: 170px;
+}
+.promo .container header {
+  float: left;
+  width: 52%;
+  margin: 50px 0 10px 0;
+  text-align: left;
+  margin: 55px 0 0 20px;
+}
+.promo .container header h1 {
+  font-size: 24px;
+  margin: 0 0 5px 0;
+}
+.promo .container header h2 {
+  font-size: 20px;
+}
+.promo .container .col {
+  float: right;
+  margin: 20px 90px 0 0;
+}
+.promo .container .col .create-acc {
+  margin-bottom: 15px;
+}
+.promo .container .col .take-tour {
+  margin-left: 30px;
+}
+.promo .container .tablet-img {
+  width: 147px;
+  height: 136px;
+  background: url("../img/icons/tablet_corner_img_large.png") no-repeat;
+}
+
+section.showcase .container {
+  min-width: 751px;
+  margin: 0 auto;
+}
+
+.item, .collection {
+  float: left;
+  min-width: 250px;
+  width: 33.3333333%;
+  margin: 0;
+  border: none;
+}
+.item .holder, .collection .holder {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  position: relative;
+  min-width: 213px;
+  border: 1px solid #d0d0d0;
+  margin: 18.6666666667px;
+  overflow: hidden;
+}
+.item .product-gallery, .collection .product-gallery {
+  min-width: 207px;
+}
+.item img, .collection img {
+  width: 100%;
+}
+
+.item.big {
+  width: 50%;
+}
+
+.collection.big {
+  width: 50%;
+}
+.collection .product-meta {
+  margin-bottom: 10px;
+}
